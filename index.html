@@ -2,12 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/html-portal-small.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>html portal</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="home">
+      <div class="logoContainer">
+        <img
+          id="logo"
+          src="/html-portal.png"
+          alt="html portal logo, a 🌀 icon with html energy logos around the spiral"
+        />
+      </div>
+      <h1>html day 06/03</h1>
+
+      <!-- Link for each location inserted here via javascript -->
+      <div id="links"></div>
+    </div>
+
+    <div id="popup">
+      <div id="pp1">
+        <h3>Welcome to the html portal</h3>
+        <p>who are you?</p>
+        <!-- TODO: triangulate location -->
+        <p>
+          it looks like you are connecting from...
+          <span id="location" contenteditable="true">???</span>
+        </p>
+        <input type="text" id="name" />
+        <button id="submit">continue</button>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
