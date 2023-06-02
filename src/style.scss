@@ -39,56 +39,57 @@ body {
 
 #sanfrancisco-link {
   position: relative;
-  padding: 4px 8px;
   font-size: 40px;
-  color: #135d0b;
+  color: #0d4b06;
 
   &::after {
     position: absolute;
     top: -4px;
     left: 0;
     will-change: transform;
-    animation: marquee 5s linear infinite;
+    animation: marquee 44s linear infinite;
     z-index: -1;
     content: "🌉  🌉  🌉  🌉";
-    opacity: 0.5;
+    opacity: 0.4;
+    white-space: nowrap;
   }
   &::before {
     position: absolute;
     top: -4px;
     left: 0;
     will-change: transform;
-    animation: marquee-forward 12s linear infinite;
+    animation: marquee-forward 62s linear infinite;
     z-index: -2;
     content: "🌉 🌉 🌉 🌉 🌉";
-    opacity: 0.5;
+    opacity: 0.4;
+    white-space: nowrap;
   }
 }
 
 @keyframes marquee {
   0% {
-    transform: translate(35%, 0);
+    transform: translate(6%, 0);
   }
 
   50% {
-    transform: translate(-10%, 0);
+    transform: translate(-5%, 0);
   }
 
   100% {
-    transform: translate(35%, 0);
+    transform: translate(6%, 0);
   }
 }
 
 @keyframes marquee-forward {
   0% {
-    transform: translate(-10%, 0);
+    transform: translate(-4%, 0);
   }
 
   50% {
-    transform: translate(15%, 0);
+    transform: translate(2%, 0);
   }
 
   100% {
-    transform: translate(-10%, 0);
+    transform: translate(-4%, 0);
   }
 }
