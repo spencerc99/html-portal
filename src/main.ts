@@ -1,10 +1,14 @@
 import "./style.scss";
 
 const locations = [
-  // all locations that celebrate
+  // All locations that celebrate in alphabetical order.
+  "Boston",
+  "Berlin",
   "London",
   "New York",
+  "Rotterdam",
   "San Francisco",
+  "Seattle",
   "Toronto",
 ];
 

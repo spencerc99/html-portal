@@ -13,8 +13,11 @@ body {
 }
 
 #links {
+  margin-top: 40px;
   display: flex;
   gap: 64px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .locationLink {
