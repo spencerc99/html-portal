@@ -1,4 +1,7 @@
+import { initCursorChat } from "cursor-chat";
 import "./style.scss";
+
+initCursorChat("html-portal-home");
 
 const locations = [
   // All locations that celebrate in alphabetical order.
