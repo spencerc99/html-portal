@@ -1,3 +1,4 @@
+// @ts-ignore
 import { initCursorChat } from "cursor-chat";
 import "./style.scss";
 
