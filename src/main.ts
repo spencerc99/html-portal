@@ -24,6 +24,6 @@ for (const location of locations) {
   locLink.id = `${strippedLocation}-link`;
   locLink.className = "locationLink";
   locLink.innerText = location;
-  locLink.href = `/${strippedLocation}`;
+  locLink.href = `/${strippedLocation}.html`;
   linksDiv?.appendChild(locLink);
 }
